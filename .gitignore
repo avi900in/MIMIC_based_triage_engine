@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# macOS metadata
+.DS_Store
+
+# Symlinks to external data folders
+mimic-iv-ed-demo-2.2 synthetic
+triagegeist
+
+# Large Model Checkpoints & Serialized Binaries (>50MB / GitHub limits)
+*.pth
+*.pt
+*.pkl
+synapse_model/model.safetensors
+
+# Datasets
+*.csv
+
+# Logs & scratch
+*.log
